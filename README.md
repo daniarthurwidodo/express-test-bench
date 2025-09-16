@@ -72,7 +72,7 @@ To perform load testing with autocannon:
 
 3. In another terminal, run autocannon:
    ```bash
-   autocannon http://localhost:3000
+   autocannon -c 50 -d 30 http://localhost:3000
    ```
 
 ## Project Structure
